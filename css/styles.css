@@ -55,15 +55,28 @@ main{
 
 h1 {
   text-align: center;
+  font-family: 'Parisienne', cursive;
+  font-size: 80px;
 }
 
+h2 {
+  text-align: center;
+  margin: 30px;
+}
 .hero {
     max-width: 80%;
     position: relative;
     display: block;
     margin: auto;
   }
+span {
+    font-family: 'Parisienne', cursive;
+    font-size: 32px;
+}
 
+p {
+  margin:10px 200px;
+}
   /*===============================
 
 
@@ -71,10 +84,11 @@ h1 {
 
 
   *===============================*/
+
   .red {
     position: absolute;
     animation-name: float;
-    left: 10px;
+    left: 5%;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -84,7 +98,7 @@ h1 {
     position: absolute;
     animation-name: float;
     animation-delay: 5s;
-    left: 50px;
+    left: 85%;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -94,7 +108,7 @@ h1 {
     position: absolute;
     animation-name: float;
     animation-delay: 2s;
-    left: 800px;
+    left: 80%;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -102,9 +116,8 @@ h1 {
 
   @keyframes float {
     from {
-      transform: translateY(10px);
+      transform: translateY(-50px);
     }
     to {
-      transform: translateY(-700px);
-    }
+      transform: translateY(-800px);
   }
